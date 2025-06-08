@@ -5,7 +5,7 @@ OVERVIEW
 - [GRAB BINKADEC](https://github.com/4sval/FModel/files/14970514/binkadec.zip)
 
 1. The SMT (Sound Modding Tool) folder, which comes with INSTRUCTIONS, is for replacing ingame audio files with your custom files
-2. Stellar Blade Modding Wiki can be found [here](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki)
+2. Stellar Blade Modding Wiki can be found [HERE](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki)
 3. I'm THINKING about populating [this spreadsheet](https://docs.google.com/spreadsheets/d/1wW6Sp-BrqBqJYaSGpi8LneNwegN8DnB5ioUaeYnXteI/edit?gid=493422129#gid=493422129) with sounds I've identified, too lazy rn tho
    
 MAKE SURE YOU READ THE INSTRUCTIONS
