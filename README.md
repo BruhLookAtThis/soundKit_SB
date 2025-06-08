@@ -6,12 +6,10 @@ OVERVIEW
 - [GRAB BINKADEC](https://github.com/4sval/FModel/files/14970514/binkadec.zip)
 
 1. The SMT (Sound Modding Tool) folder, which comes with INSTRUCTIONS, is for replacing ingame audio files with your custom files
-2. Audio that has been logged can be found here:
-
-   (For Stellar Blade) (May Be Empty/Barebones, still deciding how I want to tackle organizing sound logs for this game)
-   https://docs.google.com/spreadsheets/d/1wW6Sp-BrqBqJYaSGpi8LneNwegN8DnB5ioUaeYnXteI/edit?gid=493422129#gid=493422129
-
-MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they will be labeled as so)
+2. Audio that has been logged can be found [here](https://docs.google.com/spreadsheets/d/1wW6Sp-BrqBqJYaSGpi8LneNwegN8DnB5ioUaeYnXteI/edit?gid=493422129#gid=493422129)
+   (May Be Empty/Barebones, still deciding how I want to tackle organizing sound logs for this game)
+   
+MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER
 
 --------------------------------------------------------------
 CREDITS:
