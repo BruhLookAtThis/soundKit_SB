@@ -1,14 +1,14 @@
 OVERVIEW 
 --------------------------------------------------------------
 
-GRAB THE LATEST EPIC GAMES LAUNCHER FROM HERE & INSTALL UNREAL ENGINE 4.26: https://store.epicgames.com/en-US/download
-GRAB ZENTOOLS FROM HERE: https://github.com/WistfulHopes/ZenTools-UE4/releases/download/ue4-1.0.3/ZenTools.exe
-GRAB BINKADEC FROM HERE: https://github.com/4sval/FModel/files/14970514/binkadec.zip
+- [GRAB THE EPIC GAMES LAUNCHER & INSTALL UNREAL ENGINE 4.26](https://store.epicgames.com/en-US/download)
+- [GRAB RETOC](https://github.com/trumank/retoc/releases/download/v0.1.2/retoc-x86_64-pc-windows-msvc.zip)
+- [GRAB BINKADEC](https://github.com/4sval/FModel/files/14970514/binkadec.zip)
 
 1. The SMT (Sound Modding Tool) folder, which comes with INSTRUCTIONS, is for replacing ingame audio files with your custom files
 2. Audio that has been logged can be found here:
 
-   (For Stellar Blade) (Maybe Be Empty/Barebones, still deciding how I want to tackle organizing sound logs for this game)
+   (For Stellar Blade) (May Be Empty/Barebones, still deciding how I want to tackle organizing sound logs for this game)
    https://docs.google.com/spreadsheets/d/1wW6Sp-BrqBqJYaSGpi8LneNwegN8DnB5ioUaeYnXteI/edit?gid=493422129#gid=493422129
 
 MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they will be labeled as so)
@@ -18,9 +18,9 @@ CREDITS:
 
 @BruhiookAtThis (Spare Change? - https://linktr.ee/BruhLookAtThis)
 
-4sval
+4sval - (I forgot actually lol)
 
-GhostScissors
+GhostScissors - [binkadec](https://github.com/4sval/FModel/files/14970514/binkadec.zip)
 
 trumank - [retoc](https://github.com/trumank/retoc)
 
