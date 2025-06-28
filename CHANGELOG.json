@@ -59,3 +59,6 @@ For SMT
 - (Actually dont know if this is new but) Option 2 can (now?) convert FModel-extracted sound files
   Aka .uasset files that dont have a .uexp companion
 - Shortened the names of folders in the 0_EXTRAS folder
+
+NOTES
+- Not extensively tested, just wanted to push this out real fast
