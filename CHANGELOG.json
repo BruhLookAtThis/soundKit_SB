@@ -1,6 +1,6 @@
 -----------------------------------------------------
 -----------------------------------------------------
-PRE-RELEASE v0.0.0a
+PRE-RELEASE 0.0.0a
 
 For SMT
 - Set Option 0 to only extract the 'Game/Sound' and 'Game/L10N' folders from base game files
@@ -45,7 +45,16 @@ For SMT
 
 -----------------------------------------------------
 -----------------------------------------------------
-INITIAL RELEASE v0.0.1
+INITIAL RELEASE 0.0.1
 
 For General
 - Initial Release
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 0.0.2
+
+For SMT
+- Added DLC file support to Options 1, 102, 103
+- (Actually dont know if this is new but) Option 2 can (now?) convert FModel-extracted sound files
+  Aka .uasset files that dont have a .uexp companion
