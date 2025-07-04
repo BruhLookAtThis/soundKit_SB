@@ -76,7 +76,9 @@ For SMT
   This is so users can choose which folders to convert uasset/uexps to wav files without moving folders/files around
   You can select any folder for this, in case you have uasset/uexps in a different folder than 0-BASE-GAME-Files-Will-Be-Here
 - Replaced TEST .wav files with .ogg files to decrease download size (Silent file is still a .wav)
-  Originally I was concerned that audio quality would be bad with ogg, buuuut its a test file. Quality is almost irrelevant.
+  Originally I was concerned that audio quality would be bad with ogg, buuuut its a test file. Quality is almost irrelevant
+- Removed Sound Asset json processing from Option 0
+  Didnt work as intended, accidentally left it in the previous update
 
 NOTES
 - Not extensively tested
