@@ -62,3 +62,21 @@ For SMT
 
 NOTES
 - Not extensively tested, just wanted to push this out real fast
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 0.0.3
+
+For SMT
+- Removed Option 0.2.
+  It was not working in the script I uploaded, and I threw away the script that it was working in
+  Dont care to re-add it plus its the processing time is 4+ hours on a high-end PC
+- The former Option 0.1 is now (reverted to being) the default function for Option 0
+- (Didnt mention this in the last updated) But Option 2 now brings up a folder selector
+  This is so users can choose which folders to convert uasset/uexps to wav files without moving folders/files around
+  You can select any folder for this, in case you have uasset/uexps in a different folder than 0-BASE-GAME-Files-Will-Be-Here
+- Replaced TEST .wav files with .ogg files to decrease download size (Silent file is still a .wav)
+  Originally I was concerned that audio quality would be bad with ogg, buuuut its a test file. Quality is almost irrelevant.
+
+NOTES
+- Not extensively tested
