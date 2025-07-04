@@ -2,7 +2,6 @@ OVERVIEW
 --------------------------------------------------------------
 
 - [GRAB THE EPIC GAMES LAUNCHER & INSTALL UNREAL ENGINE 4.26](https://store.epicgames.com/en-US/download)
-- [GRAB BINKADEC](https://github.com/4sval/FModel/files/14970514/binkadec.zip)
 
 1. The SMT (Sound Modding Tool) folder, which comes with INSTRUCTIONS, is for replacing ingame audio files with your custom files
 2. Stellar Blade Modding Wiki can be found [HERE](https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki)
