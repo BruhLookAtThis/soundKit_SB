@@ -93,3 +93,15 @@ For SMT
 
 NOTES
 - Not extensively tested
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 0.0.5 (Not released yet, bug fixing smh)
+
+For SMT
+- Changed Option 0 to no longer use 0-PAKS folder. Instead, users will navigate to their games Paks folder, and select it
+  This is done to save space and time, as before, users needed to copy the pak files, which may have been met with insufficient space warnings
+  
+NOTES
+- Not extensively tested
+
