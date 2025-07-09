@@ -82,3 +82,14 @@ For SMT
 
 NOTES
 - Not extensively tested
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 0.0.4
+
+For SMT
+- Fixed Option 2s folder selector. Script can now select a folder that contains subfolders and convert all (eligible) files inside each folder.
+- Option 2 now uses a more modern File Explorer windows for their selection steps
+
+NOTES
+- Not extensively tested
