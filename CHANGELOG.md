@@ -94,3 +94,17 @@ For SMT
 
 NOTES
 - Not extensively tested
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 0.0.5
+
+For SMT
+- Option 0 now uses a more modern File Explorer windows for their selection steps
+- Added (Estimated) file size warning for Option 0.
+  May use up to 150GB of space temporarily as all game files are extracted
+  Sound files are then singled out while (almost) everything else is deleted, leaving just ~8-9GB of files left
+- Corrected some outdated Info entries
+
+NOTES
+- Not extensively tested
