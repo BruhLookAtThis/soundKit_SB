@@ -105,6 +105,7 @@ For SMT
   May use up to 150GB of space temporarily as all game files are extracted
   Sound files are then singled out while (almost) everything else is deleted, leaving just ~8-9GB of files left
 - Corrected some outdated Info entries
+- Changed Audio_LIST file format from .md to .txt cause Github is being stupid atm
 
 NOTES
 - Not extensively tested
