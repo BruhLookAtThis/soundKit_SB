@@ -12,11 +12,15 @@ MAKE SURE YOU READ THE INSTRUCTIONS
 --------------------------------------------------------------
 CREDITS:
 
-@BruhiookAtThis ([Spare Change?](https://linktr.ee/BruhLookAtThis))
+BruhIookAtThis ([Spare Change?](https://linktr.ee/BruhLookAtThis))
 
 GhostScissors/4sval - [binkadec](https://github.com/4sval/FModel/files/14970514/binkadec.zip)
 
 trumank - [retoc](https://github.com/trumank/retoc)
+
+WistfulHopes - [ZenTools](https://github.com/WistfulHopes/ZenTools-UE4/releases)
+
+ewanhowell5195 - Script Assitance (Improved Folder Selection For Option 0/Option 2)
 
 --------------------------------------------------------------
 ## Licensing
