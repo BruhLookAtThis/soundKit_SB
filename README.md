@@ -23,7 +23,7 @@ ewanhowell5195 - Script Assitance (Improved Folder Selection For Option 0/Option
 --------------------------------------------------------------
 ## Licensing
 
-SMT_SB is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE.md) for details.
+soundKit_SB is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE.md) for details.
 This tool uses FFmpeg version 7.1.1, licensed under the GPL v3. FFmpeg is a trademark of Fabrice Bellard. The FFmpeg source code is available [here](https://github.com/FFmpeg/FFmpeg/releases/tag/n7.1.1).
 
 --------------------------------------------------------------
