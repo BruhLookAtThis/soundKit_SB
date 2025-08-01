@@ -12,9 +12,9 @@ MAKE SURE YOU READ THE INSTRUCTIONS
 --------------------------------------------------------------
 CREDITS:
 
-BruhIookAtThis ([Spare Change?](https://linktr.ee/BruhLookAtThis))
+ruhLookAtThis / ❕토 Tobi 비❕ ([Spare Change?](https://linktr.ee/BruhLookAtThis)) 
 
-GhostScissors/4sval - [binkadec](https://github.com/4sval/FModel/files/14970514/binkadec.zip)
+GhostScissors and 4sval - [binkadec](https://github.com/4sval/FModel/files/14970514/binkadec.zip)
 
 trumank - [retoc](https://github.com/trumank/retoc)
 
