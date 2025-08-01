@@ -12,7 +12,7 @@ MAKE SURE YOU READ THE INSTRUCTIONS
 --------------------------------------------------------------
 CREDITS:
 
-ruhLookAtThis / ❕토 Tobi 비❕ ([Spare Change?](https://linktr.ee/BruhLookAtThis)) 
+BruhLookAtThis / ❕토 Tobi 비❕ ([Spare Change?](https://linktr.ee/BruhLookAtThis)) 
 
 GhostScissors and 4sval - [binkadec](https://github.com/4sval/FModel/files/14970514/binkadec.zip)
 
