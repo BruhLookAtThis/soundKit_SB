@@ -1,0 +1,224 @@
+----------------------------------------------------------------
+CREDITS:
+----------------------------------------------------------------
+
+❕토 Tobi 비❕ / BruhLookAtThis (Spare Change?: https://linktr.ee/BruhLookAtThis)
+4sval
+
+----------------------------------------------------------------
+CREATOR NOTES:
+----------------------------------------------------------------
+
+-Early Tool, but theoretically it should hold up
+
+----------------------------------------------------------------
+BASICS:
+----------------------------------------------------------------
+
+1. Right Click the file thats named 'z1_RunMeInPowershell_SMT_SB.ps1'
+2. Click 'Run In Powershell'
+3. A Powershell window will open
+4. Select one of the Info Options to learn what each option does, how to use them, and extra notes it may have
+
+----------------------------------------------------------------
+WARNINGS:
+----------------------------------------------------------------
+
+1. Dont touch the contents of the file thats named 'z1_RunMeInPowershell_SMT'
+2. Do NOT try to use this tool inside of a folder that has spaces or special characters in its name
+   This includes ANY folder in the path leading to the tool
+   Good Example: 'D:\Folder1\Folder2\Folder3\soundkit_SB_v99\' is good to go, because there are no spaces OR special characters in the path folders
+   Bad Example: 'D:\Folder 1\Folder2\Folder#\soundkit_SB_v99\' is not good to go, because it has a space and a special character in the path folders
+
+----------------------------------------------------------------
+TROUBLESHOOTING:
+----------------------------------------------------------------
+
+1. If you have any questions, hit the discord buddy: https://discord.gg/stellarblademodding
+2. If you run the .ps1 file in Powershell and it immediately closed:
+    -Type 'powershell' in the File Explorer url and hit Enter
+    -A Powershell window will open. Paste this in it and hit Enter:
+
+     .\z1_RunMeInPowershell_SMT_SB.ps1
+
+    -You should be able to clearly see an error message now without the window immediately closing 
+
+2b. If you get an error/warning about Execution Policy when running the .ps1 file
+    -Change 'z2_DoubleClickMe_SMT_SB.txt' to 'z2_DoubleClickMe_SMT_SB.bat'
+    -Literally, just change '.txt' at the end of that file to '.bat'
+     (If you dont see the .txt or .bat at the end of the file's name, Google 'How To Enable File Extensions'
+     and follow the instructions for your OS version)
+    -Then double click it
+    -A CMD window will appear and the process will (or should lol) begin
+
+    IF THIS DOES NOT WORK, GOOGLE 'HOW TO CHANGE POWERSHELL EXECUTION POLICY' AND FOLLOW THE STEPS FOR YOUR OS VERSION (Windows 10, Windows 11, etc)
+
+2c. If you get an error/warning about something 'not being recognized as a valid command' or whatever
+     -Make sure the path to this tool doesnt have folders that contain spaces or special characters in their names (See the WARNINGS section)
+     
+3. If you used an Option from the .ps1/.bat and nothing new showed up in any folders, make sure you updated your FModel to the latest version available.
+    -At the top of FModel, go to Help > Releases.
+    -Download the latest Release
+    -Re-export your files from FModel, and then try again
+
+4. If it's still not working, you probably...*SPOILER* smh. Shame on you!
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+INFO ABOUT THIS TOOLS OPTIONS:
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+Info About Option 0: *EXTRACT* Sound Files From Game Data - DO THIS FIRST
+     
+     - This option extracts .uasset/.uexp files from the game's 'Paks' folder to '0-BASE-GAME-Files-Will-Be-Here'.
+     - Use Option 2 to convert these files to .wav format if needed.
+     - When finished, move your Paks folder back to the game's folder.
+     
+     =====================================
+      INSTRUCTIONS:
+     
+     - Run Option 0 to extract .uasset/.uexp files.
+     - Locate your game's 'Paks' folder, usually at:
+       STEAMFOLDER\steamapps\common\StellarBlade\SB\Paks
+     - After completion, move the Paks folder back to the game's folder.
+     
+     =====================================
+      NOTES:
+     
+     - This only needs to be done one time (unless the game updates and adds new sounds).
+     - As of 07-09-2025, FModel does not properly export many audio files.
+     
+     =====================================
+
+ Info About Option 1: *ORGANIZE* Your Files Into Their Correct Folders
+             
+             - This option will put your files into the proper folders.
+             - This allows you to just drag and drop things into Unreal Engine
+             - Make sure to read the NOTES section
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - Firstly, do one of Option 0's choices if you haven't already
+             - Next, place your files into:
+               '1-Put-CUSTOM-Files-Here'.
+             - Run Option 1 of this script
+             - Files will be copied and organized into 'x1-Newly-ORGANIZED-Files-Here'
+             
+             =====================================
+              NOTES:
+             
+             - If you're making a mod, place .wav files into this directory
+             - If you are trying to organize non-default language files:
+             - Place your files into:
+               'PLACE-LANGUAGE-SPECIFIC-FILES-INSIDE-HERE\<language>'
+             - For example, if you are using English files, place them into the 'en' folder
+             - Using this Option if a 'x1-Newly-ORGANIZED-Files-Here' folder exists will delete the old one
+             
+             =====================================
+
+Info About Option 2: *CONVERT* Uasset/Uexp Files To Wavs
+     
+     - This option converts Unreal Engine .uasset/.uexp files to .wav audio files.
+     - A file explorer will open to select a folder containing .uasset/.uexp files.
+     - Default folder: '0-BASE-GAME-Files-Will-Be-Here'
+     - Useful for converting a specific subset of audio files.
+     
+     =====================================
+      INSTRUCTIONS:
+     
+     - Run Option 0 to extract .uasset/.uexp files to '0-BASE-GAME-Files-Will-Be-Here'.
+     - Alternatively, place .uasset/.uexp file pairs in any folder (e.g., '1-Put-CUSTOM-Files-Here').
+     - Run Option 2 and select the folder containing the .uasset/.uexp files to convert.
+     - Converted .wav files will be placed in here:
+       x2-CONVERTED-Wav-Files-Here
+     
+     =====================================
+      NOTES:
+     
+     - Ensure .uasset and .uexp files have matching names.
+     - Files with 'bgm' and 'cue' in their names are skipped.
+     - Check 'z1-LOG-Files-Are-Here\convert_log.json' for details.
+     
+     =====================================
+
+     Info About Option 104: Create *SILENT* Versions Of Your Files
+             
+             - This option creates silenced versions of your audio files using '0-Silent.wav'.
+             - Useful for muting specific sounds in the game
+             - Requires '0-Silent.wav' in '0_XTRA\0-(TESTs)'
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - Place your files in 'x100-XTRAs-Are-Here\x104-SILENT-Stuff-Here\A-Put-Files-To-Make-SILENT-Here'.
+             - For non-default languages, place files in:
+               'x100-XTRAs-Are-Here\x104-SILENT-Stuff-Here\A-Put-Files-To-Make-SILENT-Here\PLACE-LANGUAGE-SPECIFIC-FILES-INSIDE-HERE\<language>'
+             - Run Option 104 of this script
+             - Script will create silent .wav files named after the files you placed
+             - They will be output to this folder:
+               'x100-XTRAs-Are-Here\x104-SILENT-Stuff-Here\B-Your-New-SILENT-Files-Are-Here'
+             - They will also be organized so you can drag/drop into Unreal Engine
+             
+             =====================================
+              NOTES:
+             
+              - Using this Option if a 'B-Your-New-SILENT-Files-Are-Here' folder exists will delete the old one
+             - Even if you don't have an audio file, it will still work
+             - It will just create a silent .wav file named after the file you placed.
+             - Check 'z1-LOG-Files-Are-Here\silenced_log.json' for details
+             
+                         =====================================
+             
+Info About Option 103: Create *TEST* Versions Of Your Files
+             
+             - This option creates test versions of your files.
+             - So each file will be replaced with audio of a number
+             - Basically a person saying 'One' or 'Two' or 'Ninety-Nine', etc
+             - Useful for identifying what action makes what sound ingame
+             
+             =====================================
+              INSTRUCTIONS:
+             
+             - Place your files in 'x100-XTRAs-Are-Here\x103-TEST-Stuff-Here\A-Put-Files-To-Make-TESTs-Here'.
+             - For non-default languages, place files in:
+               'x100-XTRAs-Are-Here\x103-TEST-Stuff-Here\A-Put-Files-To-Make-TESTs-Here\PLACE-LANGUAGE-SPECIFIC-FILES-INSIDE-HERE\<language>'
+             - Run Option 103 of this script
+             - Script will create test .wav files named after the files you placed
+             - They will be output to this folder:
+               'x100-XTRAs-Are-Here\x103-TEST-Stuff-Here\B-Your-New-TEST-Files-Are-Here'
+             - They will also be organized so you can drag/drop into Unreal Engine
+             - Ensure test files (e.g., 0.wav, 1.wav) are in '0_XTRA\0-(TESTs)'
+             
+             =====================================
+              NOTES:
+             
+             - Using this Option if a 'B-Your-New-TEST-Files-Are-Here' folder exists will delete the old one
+             - Even if you don't have an audio file, it will still work
+             - It will just create a test .wav file named after the file you placed.
+             - If there are fewer test files than source files, some will be skipped
+             - Check 'z1-LOG-Files-Are-Here\test_log.json' for details
+             
+                         =====================================
+             
+Stellar Blade Modding Discord & Wiki:
+             
+               https://discord.gg/stellarblademodding
+             
+               https://github.com/Stellar-Blade-Modding-Team/Stellar-Blade-Modding-Guide/wiki
+             
+             === SETUP: READ THIS FIRST ===
+             
+             - If You Deleted Any Auto-Generated Folders, Close And Open This Script Again
+             
+             =====================================
+              NOTES:
+             
+             - Hopefully FModel is updated soon to bulk-extract Stellar Blade audio
+             - **ALWAYS** start with Option 0. Read it's info page, you should only need to do it once
+               (Well, if the game updates, you should do it again)
+             
+             =====================================
