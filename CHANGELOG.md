@@ -112,13 +112,12 @@ NOTES
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 0.0.6 (NOT RELEASED YET)
+UPDATE 0.0.6
 
 For SMT
 - Changed Option 0 to now only extract specific game folders, therefore removing the requirement for 100GB+ of free space
   - Now only uses 6GB~ of space
   - Also removes the needed to delete extra folders
-- Slightly regressed Option 0 File Explorer window version to avoid rare issues
 - Changed 'x102-SILENT-Stuff-Is-In-Here-(EXTRA)' to 'x102-SILENT-Stuff-Here'
 - Changed 'x103-TEST-Stuff-Is-In-Here-(EXTRA)' to 'x103-TEST-Stuff-Here'
 - Changed '0_EXTRAS' to '0_XTRA'
@@ -131,3 +130,10 @@ For SMT
 
 NOTES
 - Not extensively tested
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 0.0.7 (NOT RELEASED YET)
+
+For SMT
+- Slightly regressed Option 0 File Explorer window version to avoid rare issues
