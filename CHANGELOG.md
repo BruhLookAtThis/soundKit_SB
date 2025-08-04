@@ -127,6 +127,7 @@ For SMT
 - Changed 'x2-CONVERTED-Wav-Files-Are-Here' to 'x2-CONVERTED-Wav-Files-Here'
 - Changed 'x100-EXTRA-Stuff-Is-In-Here' to 'x100-XTRAs-Are-Here'
 - Changed 'zz_INSTRUCTIONS.md' to 'zz_INSTRUCTIONS_SMT_SB.txt'
+- Copied Option Info into the 'zz_INSTRUCTIONS_SMT_SB.txt' file
 
 NOTES
 - Not extensively tested
