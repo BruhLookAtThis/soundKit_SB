@@ -112,7 +112,7 @@ NOTES
 
 -----------------------------------------------------
 -----------------------------------------------------
-UPDATE 0.0.6
+UPDATE 0.0.6 (NOT RELEASED YET)
 
 For SMT
 - Changed Option 0 to now only extract specific game folders, therefore removing the requirement for 100GB+ of free space
