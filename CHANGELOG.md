@@ -118,7 +118,14 @@ For SMT
 - Changed Option 0 to now only extract specific game folders, therefore removing the requirement for 100GB+ of free space
   - Now only uses 6GB~ of space
   - Also removes the needed to delete extra folders
-- Slightly regressed Option 0 File Explorer window to avoid rare issues 
+- Slightly regressed Option 0 File Explorer window to avoid rare issues
+- Changed 'x102-SILENT-Stuff-Is-In-Here-(EXTRA)' to 'x102-SILENT-Stuff-Here'
+- Changed 'x103-TEST-Stuff-Is-In-Here-(EXTRA)' to 'x103-TEST-Stuff-Here'
+- Changed '0_EXTRAS' to '0_XTRA'
+- Changed '1-Put-Your-CUSTOM-Files-Here' to '1-Put-CUSTOM-Files-Here'
+- Changed 'x1-New-ORGANIZED-Files-Are-Here' to 'x1-Newly-ORGANIZED-Files-Here'
+- Changed 'x2-CONVERTED-Wav-Files-Are-Here' to 'x2-CONVERTED-Wav-Files-Here'
+- Changed 'x100-EXTRA-Stuff-Is-In-Here' to 'x100-XTRAs-Are-Here'
 
 NOTES
 - Not extensively tested
