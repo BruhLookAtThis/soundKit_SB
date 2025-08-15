@@ -26,14 +26,15 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 /*-------------------------------------------------BGM--*/  
 /*-------------------------------------------------BGM--*/  
 
-/*GENERAL*/  
+/*GENERAL BGM*/  
 
 -BGM_SYS_TITLE_01 = Title Screen Music  
--BGM_SYSTEM_TRAININGROOM = Training Room Music  
+-BGM_SYSTEM_TRAININGROOM = Training Room OST  
 -BGM_NIER_EMIL_ON = Emil Truck Default Music  
 -BGM_NIER_EMIL_OFF = Emil Truck Default Music  
 
-/*CAMPS*/  
+/*CAMPS BGM*/  
+
 -BGM_CAMP_MV1_ON = Camp Song (Song Of The Sirens)  
 -BGM_CAMP_MV1_OFF = Camp Song (Song Of The Sirens)  
 -BGM_CAMP_MV2_ON = Camp Song (Song Of The Nomad)  
@@ -49,26 +50,31 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_CAMP_YJ3_Blur_ON = Camp Song (Blur)  
 -BGM_CAMP_YJ3_Blur_OFF = Camp Song (Blur)  
 
-/*DESERT SOLAR NOT ACTIVATED*/  
+/*DESERT SOLAR NOT ACTIVATED BGM*/  
+
 -BGM_DESERT_UNDISCOVER_143 = Desert Solar Not Activated Default Music  
 -BGM_DESERT_UNDISCOVER_INTRO_143 = Desert Solar Not Activated Intro Music  
 
-/*DESERT OASIS*/  
--BGM_E05_EVENT_OASIS_SUMMER = Desert Oasis Area Summer Music  
--BGM_E05_EVENT_OASIS_SUMMER_CAMP = (???)  
--BGM_E05_EVENT_OASIS_SUMMER_MONO = Desert Oasis Area Summer Music (Mono Track) (???)  
+/*DESERT OASIS BGM*/  
 
-/*DESERT BOSS SHAEL*/  
+-BGM_E05_EVENT_OASIS_SUMMER = Desert Oasis Area Summer Music  
+-BGM_E05_EVENT_OASIS_SUMMER_CAMP =   
+-BGM_E05_EVENT_OASIS_SUMMER_MONO = Desert Oasis Area Summer Music (Mono Track)  
+
+/*DESERT BOSS SHAEL BGM*/  
+
 -BGM_DESERT_BOSS_SHAEL_INTRO [Requires a Cue with Concatenator Node]  
 -BGM_DESERT_BOSS_SHAEL_LOOP [Requires a Cue with Concatenator Node]  
 
-/*DESERT SOLAR ACTIVATED*/  
+/*DESERT SOLAR ACTIVATED BGM*/  
+
 -BGM_DESERT_P3_INTRO = Desert Solar Activated Intro Music  
 -BGM_DESERT_P3_LOOP = Desert Solar Activated Default Music  
 -BGM_DESERT_P3B_LOOP = Desert Solar Activated Battle Music (???)  
 -BGM_DESERT_BATTLE_N3 = Desert Battle Music (With Tall Caped Robot)  
 
-/*DESERT Abyss LEVOIRE*/  
+/*DESERT ABYSS LEVOIRE BGM*/  
+
 -BGM_EVENT_ESCAPE_WAVE = Desert Abyss Levoire Fan Saw Area Default Music  
 -BGM_LAB2_ZONE_01_BATTLE = Desert Abyss Levoire Early Area Battle Music  
 -BGM_LAB2_ZONE_01_DEFAULT = Desert Abyss Levoire Early Area Default Music  
@@ -76,22 +82,26 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_LAB2_ZONE_02_BATTLE = Desert Abyss Levoire Second Area Battle Music (???)  
 -BGM_LAB2_ZONE_02_DEFAULT = Desert Abyss Levoire Second Area Default Music (???)  
 
-/*EDIOS7 - EARLY AREA*/  
+/*EDIOS7 - EARLY AREA BGM*/  
+
 -BGM_DED_ZONE_01_DEFAULT = Eidos 7 Default Music  
 -BGM_DED_ZONE_01_DEFAULT_V_144 = Eidos 7 Default Music (???)  
 -BGM_DED_ZONE_01B_DEFAULT = Eidos 7 Default Music (???)  
 -BGM_DED_ZONE_01_BATTLE = Eidos 7 Combat Music  
 
-/*EDIOS7 - CLOCK AREA*/  
+/*EDIOS7 - CLOCK AREA BGM*/  
+
 -BGM_DED_ZONE_05_DEFAULT = Eidos 7 Clock Area Default Music  
 -BGM_DED_ZONE_05_BATTLE = Eidos 7 Clock Area Battle Music  
 
-/*EDIOS7 - AFTER TRAIN AREA*/  
+/*EDIOS7 - AFTER TRAIN AREA BGM*/  
+
 -BGM_DED_ZONE_04_DEFAULT_INTRO = Eidos 7 After Train Area Intro Music  
 -BGM_DED_ZONE_04_DEFAULT_LOOP = Eidos 7 After Train Area Default Music  
 
 
-/*MATRIX 11*/  
+/*MATRIX 11 BGM*/  
+
 -BGM_ME_ZONE_01_Battle = Matrix 11 Battle Music   
 -BGM_ME_ZONE_01_Default = Matrix 11 Default Music   
 -BGM_ME_ZONE_02_BATTLE = Matrix 11 Battle Music   
@@ -104,34 +114,40 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_ME_EVENT_BATTLE_N3_LOOP = Matrix 11 Battle Squid Men Music  
 -BGM_Dystopia_Peace = Matrix 11 Infected Train Bridge Area Default Music   
 
-/*MATRIX 11 BOSS STALKER*/  
--BGM_ME_BOSS_STALKER_PRE_INTRO_170 = Intro Cutscene OST For Stalker Boss (Challenge Only???)  
+/*MATRIX 11 BOSS STALKER BGM*/  
+
+-BGM_ME_BOSS_STALKER_PRE_INTRO_170 = Intro Cutscene OST For Stalker Boss Challenge  
 -BGM_ME_BOSS_STALKER_P1_INTRO_170  
 -BGM_ME_BOSS_STALKER_P1_LOOP_170  
 -BGM_ME_BOSS_STALKER_P2_INTRO_170  
 -BGM_ME_BOSS_STALKER_P2_LOOP_170  
 
-/*MATRIX 11 Lower Sewer*/  
+/*MATRIX 11 LOWER SEWER BGM*/  
+
 -BGM_ME_ZONE_04_BATTLE = Matrix 11 Lower Sewer Area Battle Music  
 -BGM_ME_Zone_04_Default = Matrix 11 Lower Sewer Area Default Music  
 -BGM_ME_EVENT_SHELTER_LOOP = Matrix 11 Abandoned Shelter Area Default Music  
 
-/*MATRIX 11 BOSS JUGGERNAUT*/  
+/*MATRIX 11 BOSS JUGGERNAUT BGM*/  
+
 -BGM_ME_BOSS_JUGGERNAUT_BELIAL_P1 = Matrix 11 Juggernaut Boss Fight Music Part 1  
 -BGM_ME_BOSS_JUGGERNAUT_BELIAL_P2 = Matrix 11 Juggernaut Boss Fight Music Part 2  
 -BGM_ME_BOSS_JUGGERNAUT_FINISH = Matrix 11 Juggernaut Boss Fight Music End  
 
-/*MATRIX 11 Submerged Train Yard*/  
+/*MATRIX 11 SUBMERGED TRAIN YARD BGM*/  
+
 -BGM_ME_ZONE_05_DEFAULT = Matrix 11 Submerged Train Yard Area Default Music  
 -BGM_ME_ZONE_05_UNDERWATER = Matrix 11 Submerged Train Yard Area Default Music (Underwater)  
 -BGM_ME_ZONE_05_INTRO = Matrix 11 Submerged Train Yard Area Intro Music  
 
-/*MATRIX 11 Post Saw QTE*/  
+/*MATRIX 11 POST-SAWBLADE SLIDE QTE BGM*/  
+
 -BGM_ME_Zone_06_Battle = Matrix 11 Post Saw QTE Area Battle Music  
 -BGM_ME_Zone_06_Default = Matrix 11 Post Saw QTE Area Default Music  
 -BGM_ME_ZONE_06A_DEFAULT = Matrix 11 Post Saw QTE Area Default Music (???)  
 
-/*MATRIX 11 BOSS TACHY*/  
+/*MATRIX 11 BOSS TACHY BGM*/  
+
 -BGM_ME_BOSS_TACHY_INTRO = Matrix 11 Tachy Boss Fight Intro Music  
 -BGM_ME_BOSS_TACHY_INTRO_0717 = Matrix 11 Tachy Boss Fight Intro Music (Part 2???)  
 -BGM_ME_BOSS_TACHY_P1_INTRO = Matrix 11 Tachy Boss Fight Intro Music (???)  
@@ -139,31 +155,36 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_ME_BOSS_TACHY_P2 = Matrix 11 Tachy Boss Fight Default Music Part 2  
 
 
-/*WASTELAND*/  
+/*WASTELAND BGM*/  
+
 -BGM_WASTELAND_UNDISCOVER_INTRO_100 = Wasteland Map General Music  
 -BGM_WASTELAND_UNDISCOVER_LOOP_100 = Wasteland Map General Music  
 -BGM_WASTELAND_UNDISCOVER_LOOP_100_B = Wasteland Map General Music (?)  
 -BGM_WASTELAND_UNDISCOVER_LOOP_100_C = Wasteland Map General Music (?)  
 -BGM_WASTELAND_UNDISCOVER_LOOP_P5 = Wasteland Map General Music Late Game (?)  
 
-/*WASTELAND SOLAR TOWER*/  
+/*WASTELAND SOLAR TOWER BGM*/  
+
 -BGM_WASTELAND_ZONE02_SOLARTOWER = Wasteland Map Solar Tower Area Music  
 -BGM_WASTELAND_ZONE02_SOLARTOWER_B = Wasteland Map Solar Tower Area Music (?)  
 -BGM_WASTELAND_ZONE02_SOLARTOWER_BB = Wasteland Map Solar Tower Area Music (?)  
 -BGM_WASTELAND_ZONE02_SOLARTOWER_C = Wasteland Map Solar Tower Area Music (?)  
 
-/*WASTELAND WEST/SOUTHWEST AREA (???)*/  
+/*WASTELAND WEST/SOUTHWEST AREA BGM (??? AREA BENEATH DIGGER'S SITE)*/  
+
 -NA_Stage_RuinsCity_Dynamic_LOOP = Wasteland Map DLC Music  
 -NA_Stage_RuinsCity_Mid_LOOP = Wasteland Map DLC Music  
 
-/*WASTELAND MISC*/  
+/*WASTELAND MISC BGM*/  
+
 -BGM_WASTELAND_DIGGER_INTRO = Wasteland Digger Intro Music [Requires a Cue with Concatenator Node]  
 -BGM_WASTELAND_DIGGER_LOOP = Wasteland Digger Intro Music [Requires a Cue with Concatenator Node]  
 -BGM_WASTELAND_BOSS_N3_130 = Wasteland Battle Music (Backtrack?) (With Tall Caped Robot)  
 -BGM_WASTELAND_BOSS_N3_130R = Wasteland Battle Music (With Tall Caped Robot)  
 
 
-/*XION*/  
+/*XION BGM*/  
+
 -BGM_E04_Xion_K_P1 = Xion Map General Music  
 -BGM_E04_XION_K_P2 = Xion Map General Music  
 -BGM_E04_XION_K_P3 = Xion Map General Music  
@@ -172,7 +193,8 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_XION_EVENT_WINTER = Xion Map Seasonal Music  
 -BGM_XION_SHOP_KAYA = Xion Kaya Shop Music  
 
-/*XION Misc*/  
+/*XION MISC BGM*/  
+
 -BGM_XION_ACTOR_DancingCactus = Xion Cactus Seasonal Music  
 -BGM_XION_ACTOR_ENYA_PIANO = Xion Enya General Music (Piano)  
 -BGM_XION_ACTOR_ENYA_VOCAL_H = Xion Enya General Music (H Vocals)  
@@ -190,7 +212,8 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 /*----------------------CHARA-EVE-VOICE--*/  
 /*----------------------CHARA-EVE-VOICE--*/  
 
-/*--EVE-ATTACK-VO--*/ (This Section Is Really Messy, The Sounds Are Pretty Much All Shfufled Around These Actions)  
+/*--CHAR-EVE-VOICE---ATTACK--*/ (This Section Is Really Messy, The Sounds Are Pretty Much All Shfufled Around These Actions)  
+
 -vo_eve_atk_l1_VO = Large Sword Attack (Combo = L-L)  
 -vo_eve_atk_l2_VO = Large Sword Attack/3rd Large Sword Attack (?) (Combo = L-L-L)  
 -vo_eve_atk_l3_VO = Large Sword Attack/2nd Large Sword Attack (?) (Combo = L-L)  
@@ -231,7 +254,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 /*----------------------CHARA-EVE-SFX--*/  
 /*----------------------CHARA-EVE-SFX--*/  
 
-/*--EVE-ATTACK-MELEE---SFX--*/  
+/*--CHARA-EVE-SFX---ATTACK-MELEE--*/  
 
 -Hit_sword_nomarl_01 = Hit Enemy With Small Sword Attack (Doesnt Affect Metal Enemies)  
 -Hit_sword_nomarl_02 = Hit Enemy With Small Sword Attack (Doesnt Affect Metal Enemies)  
@@ -330,7 +353,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -Cable_Spark2_3 = Sword Attack Creating Sparks On Ground  
 -swish_spark_01 = Beta (Square) 2nd Poke (? Might Just Be The Sparks That Shoot From It)  
 
-/*--EVE-ATTACK-PROJECTILE---SFX--*/  
+/*--CHARA-EVE-SFX---ATTACK-PROJECTILE--*/  
 
 -Drone_Gun_Heavy_E = Stop Aiming Gun  
 -Drone_Gun_Heavy_S = Aimed Gun Slug (?)  
@@ -377,7 +400,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -sfx_gun_noammo_03 = No Ammo Click  
 -sfx_gun_noammo_04 = No Ammo Click  
 
-/*--EVE-SPECIAL--*/  
+/*--CHARA-EVE-SFX---SPECIAL--*/  
 
 -sfx_battle_WeakPoint_normal_new = Enemy WeakPoint Exposed  
 -sfx_battle_signal_Blink2 = Enemy Blink Attack Flash  
@@ -387,7 +410,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -SE_PC_AddDamageImpact1 = Retribution SFX 1 (Plays When Throwing Enemy Onto Their Back)  
 -EVE_SE_LinkSignal = Perfect Dodge Secondary SFX, Retribution SFX 2 (There Are More SFX Played Alongside This)  
 
-/*--EVE-GUARD--*/  
+/*--CHARA-EVE-SFX---GUARD--*/  
 
 -EVE_PC_Normal_Parry_Sword_01 = Blocked Attack (Very Low Pitch)  
 -EVE_PC_Normal_Parry_Sword_03 = Blocked Attack (Very Low Pitch)  
@@ -407,7 +430,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -PC_just_parry_Main_5_fx_1 = Parry FX (Plays With PC_just_parry_3)  
 -SE_AddHitImpact_Low1 = (???) Perfect Dodge 1 (???)  
 
-/*--EVE-CLOTHING/MOVEMENT--*/  
+/*--CHARA-EVE-SFX---CLOTHING/MOVEMENT--*/  
 
 -PC_SE_ExtraSprint_Begin = Speed-Boosted Dash Start  
 -PC_SE_ExtraSprint_Loop = Speed-Boosted Dash Loop  
@@ -460,7 +483,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -EVE_SE_ClothMid = Cloth Movement (Plays When: Standing Posture Shifts, Landing From Air Dash, One Arm Ledge Climb, Sitting Down, Moving While Seated, Getting Up From Seat, Interacting With Skill Machine, etc)  
 -EVE_SE_ClothShort = Cloth Movement (Plays When: Abrupt Forward Direction Change, Dashing Forward From Idle/Walking State, Idle Pose Kick, Landing From Jump, Starting Run, etc)  
 
-/*--EVE-MISC--*/  
+/*--CHARA-EVE-SFX---MISC--*/  
 
 -EVE_CampRest = Rest Recharge  
 -EVE_CampRest_2 = ???  
@@ -473,7 +496,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 /*--------------------------------------------ENEMY--*/  
 /*--------------------------------------------ENEMY--*/  
 
-/*--ENEMY-MISC--*/  
+/*--ENEMY-SFX---MISC--*/  
 
 -EVE_MON_DespawnVaporize3 = Enemy Despawn (Noticed In Training Room)  
 
@@ -481,18 +504,19 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 /*------------------------------------------OBJECTS--*/  
 /*------------------------------------------OBJECTS--*/  
 
+/*--OBJECTS-SFX---CAN--*/  
+
 -PC_SE_Item_CanShowing_brass_1 = Can Shown To Screen Fanfare  
 -PC_SE_Item_CanShowing_brass_2 = Can Shown To Screen Fanfare  
 -PC_SE_Item_CanShowing_grab_1 = Can Collected Pickup, Put Away SFX  
 -PC_SE_Item_CanShowing_grab_2 = Can Collected Pickup, Put Away SFX  
 -PC_SE_Item_CanShowing_grab_3 = Can Collected Pickup, Put Away SFX  
 
-
 /*---------------------------------------------NPC--*/  
 /*---------------------------------------------NPC--*/  
 /*---------------------------------------------NPC--*/  
 
-/*--ADAM-DRONE--*/  
+/*--NPC-ADAM-DRONE-SFX---MOVEMENT/SCAN--*/  
 
 -Drone_motion_arrive3_2 = Drone Stopping Travel And Lowering  
 -Drone_motion_arrive3_1 = Drone Stopping Travel And Lowering  
@@ -520,7 +544,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 /*--------------------------------------------------UI--*/  
 /*--------------------------------------------------UI--*/  
 
-/*--UI--*/  
+/*--UI-SFX--*/  
 
 -EVE_UI_DoorOpenSignal = Open Door That Was Just Unlocked (Tested On Rusty Little Gate)  
 -EVE_UI_GEAR_CLEAR = Main Menu Up/Down Navigation  
@@ -581,6 +605,10 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -UI_Workshop_Open = Enter Upgrade Machine  
 
 
+
+
+/*--------------------------------------------------BOSS-CODENAME-LIST--*/  
+/*--------------------------------------------------BOSS-CODENAME-LIST--*/  
 /*--------------------------------------------------BOSS-CODENAME-LIST--*/  
 
 Opener - Abaddon  
