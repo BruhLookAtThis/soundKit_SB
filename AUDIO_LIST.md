@@ -9,23 +9,23 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 
 - NOTE 1: Many Sounds Are Affected By Random Pitch Changes  
 - NOTE 2: These Sounds Were Not Heavily Tested, So They May Activate In More Instances Than Written  
-          - Feel free to correct me on any mistakes  
+          - Feel free to correct me on any mistakes
+  
 - NOTE 3: Some Annotations, like "Always Plays", Maybe Be Missing From A Few Entries. My Fault Lol  
 - NOTE 4: Files with "Cue" in their name arent actual soundfiles. Im moving them to the very bottom of this file  
-
           - FIRSTLY:  
             - I tweaked Option 0 of my tool to remove any cue files when processing for Option 0 (This needs to be re-implemented as of v0.0.6)  
             - Hopefully this prevents people from trying to use them, as I dont think its good practice to  
-
           - SECONDLY: (Just leaving this here for information purposes)  
             - Oddly, they can still be replaced with sound files, and it will play ingame  
             - BUT I recommend you dont do that because they overlap with actual sound files  
             - On top of that, they ignore volume levels in your settings  
             - I.e. even if you set music/voice/sfx volume to zero, these replaced Cue files will still play audio  
-            - If you view them in FModel, their metadata will point to relevant sound file(s) 
+            - If you view them in FModel, their metadata will point to relevant sound file(s)
+  
 - NOTE 5: Some BGMs, especially BOSS BGMs, require more sophisticated setup in Unreal Engine  
           - This includes linking them to Cue files, and/or adding Concatenator Nodes to those Cue files (to connect Intros & Loops to a single Cue)  
-          - I have only logged this warning for files in which I have personally set up Cues for, so be aware the song you replace but I havent may need one  
+          - I have only logged this warning for files in which I have personally set up Cues for, so be aware the song you replace may need one  
           - I have added warnings for those I suspect may require Cues, but I have not tested for sure so I cannot be certain  
           - I honestly think its always a safe option to just make a Cue file though if you see that a BGM has one in FModel  
 
