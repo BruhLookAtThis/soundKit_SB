@@ -6,21 +6,28 @@ Credits to:
 /*--------------------------------------------------INTRO-TO-LOGS--*/  
 /*--------------------------------------------------INTRO-TO-LOGS--*/  
 THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY ACTIVATE   
-(NOTE: Many Sounds Are Affected By Random Pitch Changes)  
-(NOTE 2: These Sounds Were Not Heavily Tested, So They May Activate In More Instances Than Written)  
-         (Feel free to correct me on any mistakes)  
-(NOTE 3: Some Annotations, like "Always Plays", Maybe Be Missing From A Few Entries. My Fault Lol)  
-(NOTE 4: Files with "Cue" in their name arent actual soundfiles. Im moving them to the very bottom of this file)  
-         (FIRSTLY:)  
-         (I tweaked Option 0 of my tool to remove any cue files when processing for Option 0 - This needs to be re-implemented as of v0.0.6)  
-         (Hopefully this prevents people from trying to use them, as I dont think its good practice to)  
-         (SECONDLY:) (Just leaving this here for information purposes)  
-         (Oddly, they can still be replaced with sound files, and it will play ingame)  
-         (BUT I recommend you dont do that because they overlap with actual sound files)  
-         (On top of that, they ignore volume levels in your settings)  
-         (I.e. even if you set music/voice/sfx volume to zero, these replaced Cue files will still play audio)  
-         (If you view them in FModel, their metadata will point to relevant sound file(s)  
-         (  
+
+- NOTE 1: Many Sounds Are Affected By Random Pitch Changes  
+- NOTE 2: These Sounds Were Not Heavily Tested, So They May Activate In More Instances Than Written  
+          - Feel free to correct me on any mistakes  
+- NOTE 3: Some Annotations, like "Always Plays", Maybe Be Missing From A Few Entries. My Fault Lol  
+- NOTE 4: Files with "Cue" in their name arent actual soundfiles. Im moving them to the very bottom of this file  
+
+          - FIRSTLY:  
+            - I tweaked Option 0 of my tool to remove any cue files when processing for Option 0 (This needs to be re-implemented as of v0.0.6)  
+            - Hopefully this prevents people from trying to use them, as I dont think its good practice to  
+
+          - SECONDLY: (Just leaving this here for information purposes)  
+            - Oddly, they can still be replaced with sound files, and it will play ingame  
+            - BUT I recommend you dont do that because they overlap with actual sound files  
+            - On top of that, they ignore volume levels in your settings  
+            - I.e. even if you set music/voice/sfx volume to zero, these replaced Cue files will still play audio  
+            - If you view them in FModel, their metadata will point to relevant sound file(s) 
+- NOTE 5: Some BGMs, especially BOSS BGMs, require more sophisticated setup in Unreal Engine  
+          - This includes linking them to Cue files, and/or adding Concatenator Nodes to those Cue files (to connect Intros & Loops to a single Cue)  
+          - I have only logged this warning for files in which I have personally set up Cues for, so be aware the song you replace but I havent may need one  
+          - I have added warnings for those I suspect may require Cues, but I have not tested for sure so I cannot be certain  
+          - I honestly think its always a safe option to just make a Cue file though if you see that a BGM has one in FModel  
 
 /*-------------------------------------------------BGM--*/  
 /*-------------------------------------------------BGM--*/  
@@ -118,9 +125,9 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 
 -BGM_ME_BOSS_STALKER_PRE_INTRO_170 = Intro Cutscene OST For Stalker Boss Challenge  
 -BGM_ME_BOSS_STALKER_P1_INTRO_170  
--BGM_ME_BOSS_STALKER_P1_LOOP_170  
+-BGM_ME_BOSS_STALKER_P1_LOOP_170 [Requires a Cue]  
 -BGM_ME_BOSS_STALKER_P2_INTRO_170  
--BGM_ME_BOSS_STALKER_P2_LOOP_170  
+-BGM_ME_BOSS_STALKER_P2_LOOP_170 [Requires a Cue]  
 
 /*MATRIX 11 - LOWER SEWER BGM*/  
 
@@ -130,9 +137,9 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 
 /*MATRIX 11 - BOSS JUGGERNAUT BGM*/  
 
--BGM_ME_BOSS_JUGGERNAUT_BELIAL_P1 = Matrix 11 Juggernaut Boss Fight Music Part 1  
--BGM_ME_BOSS_JUGGERNAUT_BELIAL_P2 = Matrix 11 Juggernaut Boss Fight Music Part 2  
--BGM_ME_BOSS_JUGGERNAUT_FINISH = Matrix 11 Juggernaut Boss Fight Music End  
+-BGM_ME_BOSS_JUGGERNAUT_BELIAL_P1 = Matrix 11 Juggernaut Boss Fight Music Part 1 [Requires a Cue]  
+-BGM_ME_BOSS_JUGGERNAUT_BELIAL_P2 = Matrix 11 Juggernaut Boss Fight Music Part 2 [Requires a Cue]  
+-BGM_ME_BOSS_JUGGERNAUT_FINISH = Matrix 11 Juggernaut Boss Fight Music End [Requires a Cue]  
 
 /*MATRIX 11 - SUBMERGED TRAIN YARD BGM*/  
 
@@ -148,11 +155,11 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 
 /*MATRIX 11 - BOSS TACHY BGM*/  
 
--BGM_ME_BOSS_TACHY_INTRO = Matrix 11 Tachy Boss Fight Intro Music  
--BGM_ME_BOSS_TACHY_INTRO_0717 = Matrix 11 Tachy Boss Fight Intro Music (Part 2???)  
--BGM_ME_BOSS_TACHY_P1_INTRO = Matrix 11 Tachy Boss Fight Intro Music (???)  
--BGM_ME_BOSS_TACHY_P1_LOOP = Matrix 11 Tachy Boss Fight Default Music Part 1  
--BGM_ME_BOSS_TACHY_P2 = Matrix 11 Tachy Boss Fight Default Music Part 2  
+-BGM_ME_BOSS_TACHY_INTRO = Matrix 11 Tachy Boss Fight Intro Music [Requires a Cue]  
+-BGM_ME_BOSS_TACHY_INTRO_0717 = Matrix 11 Tachy Boss Fight Intro Music (Part 2???) [MAY Require a Cue]  
+-BGM_ME_BOSS_TACHY_P1_INTRO = Matrix 11 Tachy Boss Fight Intro Music (???) [MAY Require a Cue]  
+-BGM_ME_BOSS_TACHY_P1_LOOP = Matrix 11 Tachy Boss Fight Default Music Part 1 [Requires a Cue]  
+-BGM_ME_BOSS_TACHY_P2 = Matrix 11 Tachy Boss Fight Default Music Part 2  [Requires a Cue]  
 
 
 /*WASTELAND BGM*/  
