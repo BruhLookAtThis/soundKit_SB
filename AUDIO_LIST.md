@@ -27,6 +27,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 /*-------------------------------------------------BGM--*/  
 
 /*GENERAL*/  
+
 -BGM_SYS_TITLE_01 = Title Screen Music  
 -BGM_SYSTEM_TRAININGROOM = Training Room Music  
 -BGM_NIER_EMIL_ON = Emil Truck Default Music  
