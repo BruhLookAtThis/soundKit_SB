@@ -50,30 +50,30 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_CAMP_YJ3_Blur_ON = Camp Song (Blur)  
 -BGM_CAMP_YJ3_Blur_OFF = Camp Song (Blur)  
 
-/*DESERT SOLAR NOT ACTIVATED BGM*/  
+/*DESERT - SOLAR NOT ACTIVATED BGM*/  
 
 -BGM_DESERT_UNDISCOVER_143 = Desert Solar Not Activated Default Music  
 -BGM_DESERT_UNDISCOVER_INTRO_143 = Desert Solar Not Activated Intro Music  
 
-/*DESERT OASIS BGM*/  
+/*DESERT - OASIS BGM*/  
 
 -BGM_E05_EVENT_OASIS_SUMMER = Desert Oasis Area Summer Music  
 -BGM_E05_EVENT_OASIS_SUMMER_CAMP =   
 -BGM_E05_EVENT_OASIS_SUMMER_MONO = Desert Oasis Area Summer Music (Mono Track)  
 
-/*DESERT BOSS SHAEL BGM*/  
+/*DESERT - BOSS SHAEL BGM*/  
 
 -BGM_DESERT_BOSS_SHAEL_INTRO [Requires a Cue with Concatenator Node]  
 -BGM_DESERT_BOSS_SHAEL_LOOP [Requires a Cue with Concatenator Node]  
 
-/*DESERT SOLAR ACTIVATED BGM*/  
+/*DESERT - SOLAR ACTIVATED BGM*/  
 
 -BGM_DESERT_P3_INTRO = Desert Solar Activated Intro Music  
 -BGM_DESERT_P3_LOOP = Desert Solar Activated Default Music  
 -BGM_DESERT_P3B_LOOP = Desert Solar Activated Battle Music (???)  
 -BGM_DESERT_BATTLE_N3 = Desert Battle Music (With Tall Caped Robot)  
 
-/*DESERT ABYSS LEVOIRE BGM*/  
+/*DESERT - ABYSS LEVOIRE BGM*/  
 
 -BGM_EVENT_ESCAPE_WAVE = Desert Abyss Levoire Fan Saw Area Default Music  
 -BGM_LAB2_ZONE_01_BATTLE = Desert Abyss Levoire Early Area Battle Music  
@@ -82,19 +82,19 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_LAB2_ZONE_02_BATTLE = Desert Abyss Levoire Second Area Battle Music (???)  
 -BGM_LAB2_ZONE_02_DEFAULT = Desert Abyss Levoire Second Area Default Music (???)  
 
-/*EDIOS7 - EARLY AREA BGM*/  
+/*EDIOS 7 - EARLY AREA BGM*/  
 
 -BGM_DED_ZONE_01_DEFAULT = Eidos 7 Default Music  
 -BGM_DED_ZONE_01_DEFAULT_V_144 = Eidos 7 Default Music (???)  
 -BGM_DED_ZONE_01B_DEFAULT = Eidos 7 Default Music (???)  
 -BGM_DED_ZONE_01_BATTLE = Eidos 7 Combat Music  
 
-/*EDIOS7 - CLOCK AREA BGM*/  
+/*EDIOS 7 - CLOCK AREA BGM*/  
 
 -BGM_DED_ZONE_05_DEFAULT = Eidos 7 Clock Area Default Music  
 -BGM_DED_ZONE_05_BATTLE = Eidos 7 Clock Area Battle Music  
 
-/*EDIOS7 - AFTER TRAIN AREA BGM*/  
+/*EDIOS 7 - AFTER TRAIN AREA BGM*/  
 
 -BGM_DED_ZONE_04_DEFAULT_INTRO = Eidos 7 After Train Area Intro Music  
 -BGM_DED_ZONE_04_DEFAULT_LOOP = Eidos 7 After Train Area Default Music  
@@ -114,7 +114,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_ME_EVENT_BATTLE_N3_LOOP = Matrix 11 Battle Squid Men Music  
 -BGM_Dystopia_Peace = Matrix 11 Infected Train Bridge Area Default Music   
 
-/*MATRIX 11 BOSS STALKER BGM*/  
+/*MATRIX 11 - BOSS STALKER BGM*/  
 
 -BGM_ME_BOSS_STALKER_PRE_INTRO_170 = Intro Cutscene OST For Stalker Boss Challenge  
 -BGM_ME_BOSS_STALKER_P1_INTRO_170  
@@ -122,31 +122,31 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_ME_BOSS_STALKER_P2_INTRO_170  
 -BGM_ME_BOSS_STALKER_P2_LOOP_170  
 
-/*MATRIX 11 LOWER SEWER BGM*/  
+/*MATRIX 11 - LOWER SEWER BGM*/  
 
 -BGM_ME_ZONE_04_BATTLE = Matrix 11 Lower Sewer Area Battle Music  
 -BGM_ME_Zone_04_Default = Matrix 11 Lower Sewer Area Default Music  
 -BGM_ME_EVENT_SHELTER_LOOP = Matrix 11 Abandoned Shelter Area Default Music  
 
-/*MATRIX 11 BOSS JUGGERNAUT BGM*/  
+/*MATRIX 11 - BOSS JUGGERNAUT BGM*/  
 
 -BGM_ME_BOSS_JUGGERNAUT_BELIAL_P1 = Matrix 11 Juggernaut Boss Fight Music Part 1  
 -BGM_ME_BOSS_JUGGERNAUT_BELIAL_P2 = Matrix 11 Juggernaut Boss Fight Music Part 2  
 -BGM_ME_BOSS_JUGGERNAUT_FINISH = Matrix 11 Juggernaut Boss Fight Music End  
 
-/*MATRIX 11 SUBMERGED TRAIN YARD BGM*/  
+/*MATRIX 11 - SUBMERGED TRAIN YARD BGM*/  
 
 -BGM_ME_ZONE_05_DEFAULT = Matrix 11 Submerged Train Yard Area Default Music  
 -BGM_ME_ZONE_05_UNDERWATER = Matrix 11 Submerged Train Yard Area Default Music (Underwater)  
 -BGM_ME_ZONE_05_INTRO = Matrix 11 Submerged Train Yard Area Intro Music  
 
-/*MATRIX 11 POST-SAWBLADE SLIDE QTE BGM*/  
+/*MATRIX 11 - POST-SAWBLADE SLIDE QTE BGM*/  
 
 -BGM_ME_Zone_06_Battle = Matrix 11 Post Saw QTE Area Battle Music  
 -BGM_ME_Zone_06_Default = Matrix 11 Post Saw QTE Area Default Music  
 -BGM_ME_ZONE_06A_DEFAULT = Matrix 11 Post Saw QTE Area Default Music (???)  
 
-/*MATRIX 11 BOSS TACHY BGM*/  
+/*MATRIX 11 - BOSS TACHY BGM*/  
 
 -BGM_ME_BOSS_TACHY_INTRO = Matrix 11 Tachy Boss Fight Intro Music  
 -BGM_ME_BOSS_TACHY_INTRO_0717 = Matrix 11 Tachy Boss Fight Intro Music (Part 2???)  
@@ -163,19 +163,19 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_WASTELAND_UNDISCOVER_LOOP_100_C = Wasteland Map General Music (?)  
 -BGM_WASTELAND_UNDISCOVER_LOOP_P5 = Wasteland Map General Music Late Game (?)  
 
-/*WASTELAND SOLAR TOWER BGM*/  
+/*WASTELAND - SOLAR TOWER BGM*/  
 
 -BGM_WASTELAND_ZONE02_SOLARTOWER = Wasteland Map Solar Tower Area Music  
 -BGM_WASTELAND_ZONE02_SOLARTOWER_B = Wasteland Map Solar Tower Area Music (?)  
 -BGM_WASTELAND_ZONE02_SOLARTOWER_BB = Wasteland Map Solar Tower Area Music (?)  
 -BGM_WASTELAND_ZONE02_SOLARTOWER_C = Wasteland Map Solar Tower Area Music (?)  
 
-/*WASTELAND WEST/SOUTHWEST AREA BGM (??? AREA BENEATH DIGGER'S SITE)*/  
+/*WASTELAND - WEST/SOUTHWEST AREA BGM (??? AREA BENEATH DIGGER'S SITE)*/  
 
 -NA_Stage_RuinsCity_Dynamic_LOOP = Wasteland Map DLC Music  
 -NA_Stage_RuinsCity_Mid_LOOP = Wasteland Map DLC Music  
 
-/*WASTELAND MISC BGM*/  
+/*WASTELAND - MISC BGM*/  
 
 -BGM_WASTELAND_DIGGER_INTRO = Wasteland Digger Intro Music [Requires a Cue with Concatenator Node]  
 -BGM_WASTELAND_DIGGER_LOOP = Wasteland Digger Intro Music [Requires a Cue with Concatenator Node]  
@@ -193,7 +193,7 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_XION_EVENT_WINTER = Xion Map Seasonal Music  
 -BGM_XION_SHOP_KAYA = Xion Kaya Shop Music  
 
-/*XION MISC BGM*/  
+/*XION - MISC BGM*/  
 
 -BGM_XION_ACTOR_DancingCactus = Xion Cactus Seasonal Music  
 -BGM_XION_ACTOR_ENYA_PIANO = Xion Enya General Music (Piano)  
