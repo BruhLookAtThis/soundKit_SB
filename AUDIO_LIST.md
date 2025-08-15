@@ -12,24 +12,27 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 (NOTE 3: Some Annotations, like "Always Plays", Maybe Be Missing From A Few Entries. My Fault Lol)
 (NOTE 4: Files with "Cue" in their name arent actual soundfiles. Im moving them to the very bottom of this file)
          (FIRSTLY:)
-         (I tweaked Option 0 of my tool to remove any cue files when processing for Option 0)
+         (I tweaked Option 0 of my tool to remove any cue files when processing for Option 0 - This needs to be re-implemented as of v0.0.6)
          (Hopefully this prevents people from trying to use them, as I dont think its good practice to)
          (SECONDLY:) (Just leaving this here for information purposes)
          (Oddly, they can still be replaced with sound files, and it will play ingame)
          (BUT I recommend you dont do that because they overlap with actual sound files)
          (On top of that, they ignore volume levels in your settings)
-         (I.e. even if you set anything to zero, these replaced Cue files will still play)
-         (If you view them in FModel, their metadata or whatever will point to relevant sound file(s)
+         (I.e. even if you set music/voice/sfx volume to zero, these replaced Cue files will still play audio)
+         (If you view them in FModel, their metadata will point to relevant sound file(s)
          (
 
 /*-------------------------------------------------BGM--*/
 /*-------------------------------------------------BGM--*/
 /*-------------------------------------------------BGM--*/
 
--BGM_SYS_TITLE_01 = Title Screen OST
--BGM_SYSTEM_TRAININGROOM = Skill Tree Traning Room OST
+/*GENERAL*/
+-BGM_SYS_TITLE_01 = Title Screen Music
+-BGM_SYSTEM_TRAININGROOM = Training Room Music
+-BGM_NIER_EMIL_ON = Emil Truck Default Music
+-BGM_NIER_EMIL_OFF = Emil Truck Default Music
 
-
+/*CAMPS*/
 -BGM_CAMP_MV1_ON = Camp Song (Song Of The Sirens)
 -BGM_CAMP_MV1_OFF = Camp Song (Song Of The Sirens)
 -BGM_CAMP_MV2_ON = Camp Song (Song Of The Nomad)
@@ -45,23 +48,130 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_CAMP_YJ3_Blur_ON = Camp Song (Blur)
 -BGM_CAMP_YJ3_Blur_OFF = Camp Song (Blur)
 
+/*DESERT SOLAR NOT ACTIVATED*/
+-BGM_DESERT_UNDISCOVER_143 = Desert Solar Not Activated Default Music
+-BGM_DESERT_UNDISCOVER_INTRO_143 = Desert Solar Not Activated Intro Music
+
+/*DESERT OASIS*/
+-BGM_E05_EVENT_OASIS_SUMMER = Desert Oasis Area Summer Music
+-BGM_E05_EVENT_OASIS_SUMMER_CAMP = (???)
+-BGM_E05_EVENT_OASIS_SUMMER_MONO = Desert Oasis Area Summer Music (Mono Track) (???)
+
+/*DESERT BOSS SHAEL*/
+-BGM_DESERT_BOSS_SHAEL_INTRO [Requires a Cue with Concatenator Node]
+-BGM_DESERT_BOSS_SHAEL_LOOP [Requires a Cue with Concatenator Node]
+
+/*DESERT SOLAR ACTIVATED*/
+-BGM_DESERT_P3_INTRO = Desert Solar Activated Intro Music
+-BGM_DESERT_P3_LOOP = Desert Solar Activated Default Music
+-BGM_DESERT_P3B_LOOP = Desert Solar Activated Battle Music (???)
+-BGM_DESERT_BATTLE_N3 = Desert Battle Music (With Tall Caped Robot)
+
+/*DESERT Abyss LEVOIRE*/
+-BGM_EVENT_ESCAPE_WAVE = Desert Abyss Levoire Fan Saw Area Default Music
+-BGM_LAB2_ZONE_01_BATTLE = Desert Abyss Levoire Early Area Battle Music
+-BGM_LAB2_ZONE_01_DEFAULT = Desert Abyss Levoire Early Area Default Music
+-BGM_LAB_ZONE02 = Desert Abyss Levoire Spinning Laser Room Mini Challenge Area Default Music
+-BGM_LAB2_ZONE_02_BATTLE = Desert Abyss Levoire Second Area Battle Music (???)
+-BGM_LAB2_ZONE_02_DEFAULT = Desert Abyss Levoire Second Area Default Music (???)
+
+/*EDIOS7 - EARLY AREA*/
 -BGM_DED_ZONE_01_DEFAULT = Eidos 7 Default Music
+-BGM_DED_ZONE_01_DEFAULT_V_144 = Eidos 7 Default Music (???)
+-BGM_DED_ZONE_01B_DEFAULT = Eidos 7 Default Music (???)
 -BGM_DED_ZONE_01_BATTLE = Eidos 7 Combat Music
 
+/*EDIOS7 - CLOCK AREA*/
+-BGM_DED_ZONE_05_DEFAULT = Eidos 7 Clock Area Default Music
+-BGM_DED_ZONE_05_BATTLE = Eidos 7 Clock Area Battle Music
+
+/*EDIOS7 - AFTER TRAIN AREA*/
+-BGM_DED_ZONE_04_DEFAULT_INTRO = Eidos 7 After Train Area Intro Music
+-BGM_DED_ZONE_04_DEFAULT_LOOP = Eidos 7 After Train Area Default Music
+
+
+/*MATRIX 11*/
+-BGM_ME_ZONE_01_Battle = Matrix 11 Battle Music 
+-BGM_ME_ZONE_01_Default = Matrix 11 Default Music 
+-BGM_ME_ZONE_02_BATTLE = Matrix 11 Battle Music 
+-BGM_ME_Zone_02_Default = Matrix 11 Default Music 
+-BGM_ME_ZONE_03_BATTLE = Matrix 11 Battle Music 
+-BGM_ME_ZONE_03_BATTLE2 = Matrix 11 Battle Music 
+-BGM_ME_Zone_03_Default = Matrix 11 Default Music
+-BGM_Matrix_XI_Field_TrashBattle_Loop = Matrix 11 Battle Squid Men Music (???)
+-BGM_ME_EVENT_BATTLE_N3_INTRO = Matrix 11 Battle Squid Men Intro Music 
+-BGM_ME_EVENT_BATTLE_N3_LOOP = Matrix 11 Battle Squid Men Music
+-BGM_Dystopia_Peace = Matrix 11 Infected Train Bridge Area Default Music 
+
+/*MATRIX 11 BOSS STALKER*/
+-BGM_ME_BOSS_STALKER_PRE_INTRO_170 = Intro Cutscene OST For Stalker Boss (Challenge Only???)
+-BGM_ME_BOSS_STALKER_P1_INTRO_170
+-BGM_ME_BOSS_STALKER_P1_LOOP_170
+-BGM_ME_BOSS_STALKER_P2_INTRO_170
+-BGM_ME_BOSS_STALKER_P2_LOOP_170
+
+/*MATRIX 11 Lower Sewer*/
+-BGM_ME_ZONE_04_BATTLE = Matrix 11 Lower Sewer Area Battle Music
+-BGM_ME_Zone_04_Default = Matrix 11 Lower Sewer Area Default Music
+-BGM_ME_EVENT_SHELTER_LOOP = Matrix 11 Abandoned Shelter Area Default Music
+
+/*MATRIX 11 BOSS JUGGERNAUT*/
+-BGM_ME_BOSS_JUGGERNAUT_BELIAL_P1 = Matrix 11 Juggernaut Boss Fight Music Part 1
+-BGM_ME_BOSS_JUGGERNAUT_BELIAL_P2 = Matrix 11 Juggernaut Boss Fight Music Part 2
+-BGM_ME_BOSS_JUGGERNAUT_FINISH = Matrix 11 Juggernaut Boss Fight Music End
+
+/*MATRIX 11 Submerged Train Yard*/
+-BGM_ME_ZONE_05_DEFAULT = Matrix 11 Submerged Train Yard Area Default Music
+-BGM_ME_ZONE_05_UNDERWATER = Matrix 11 Submerged Train Yard Area Default Music (Underwater)
+-BGM_ME_ZONE_05_INTRO = Matrix 11 Submerged Train Yard Area Intro Music
+
+/*MATRIX 11 Post Saw QTE*/
+-BGM_ME_Zone_06_Battle = Matrix 11 Post Saw QTE Area Battle Music
+-BGM_ME_Zone_06_Default = Matrix 11 Post Saw QTE Area Default Music
+-BGM_ME_ZONE_06A_DEFAULT = Matrix 11 Post Saw QTE Area Default Music (???)
+
+/*MATRIX 11 BOSS TACHY*/
+-BGM_ME_BOSS_TACHY_INTRO = Matrix 11 Tachy Boss Fight Intro Music
+-BGM_ME_BOSS_TACHY_INTRO_0717 = Matrix 11 Tachy Boss Fight Intro Music (Part 2???)
+-BGM_ME_BOSS_TACHY_P1_INTRO = Matrix 11 Tachy Boss Fight Intro Music (???)
+-BGM_ME_BOSS_TACHY_P1_LOOP = Matrix 11 Tachy Boss Fight Default Music Part 1
+-BGM_ME_BOSS_TACHY_P2 = Matrix 11 Tachy Boss Fight Default Music Part 2
+
+
+/*WASTELAND*/
 -BGM_WASTELAND_UNDISCOVER_INTRO_100 = Wasteland Map General Music
 -BGM_WASTELAND_UNDISCOVER_LOOP_100 = Wasteland Map General Music
 -BGM_WASTELAND_UNDISCOVER_LOOP_100_B = Wasteland Map General Music (?)
 -BGM_WASTELAND_UNDISCOVER_LOOP_100_C = Wasteland Map General Music (?)
 -BGM_WASTELAND_UNDISCOVER_LOOP_P5 = Wasteland Map General Music Late Game (?)
+
+/*WASTELAND SOLAR TOWER*/
 -BGM_WASTELAND_ZONE02_SOLARTOWER = Wasteland Map Solar Tower Area Music
 -BGM_WASTELAND_ZONE02_SOLARTOWER_B = Wasteland Map Solar Tower Area Music (?)
 -BGM_WASTELAND_ZONE02_SOLARTOWER_BB = Wasteland Map Solar Tower Area Music (?)
 -BGM_WASTELAND_ZONE02_SOLARTOWER_C = Wasteland Map Solar Tower Area Music (?)
 
--BGM_WASTELAND_BOSS_N3_130R = Wasteland Battle Music (With Tall Caped Robot????)
+/*WASTELAND WEST/SOUTHWEST AREA (???)*/
+-NA_Stage_RuinsCity_Dynamic_LOOP = Wasteland Map DLC Music
+-NA_Stage_RuinsCity_Mid_LOOP = Wasteland Map DLC Music
 
--BGM_DESERT_BATTLE_N3 = Desert Battle Music (With Tall Caped Robot????)
+/*WASTELAND MISC*/
+-BGM_WASTELAND_DIGGER_INTRO = Wasteland Digger Intro Music [Requires a Cue with Concatenator Node]
+-BGM_WASTELAND_DIGGER_LOOP = Wasteland Digger Intro Music [Requires a Cue with Concatenator Node]
+-BGM_WASTELAND_BOSS_N3_130 = Wasteland Battle Music (Backtrack?) (With Tall Caped Robot)
+-BGM_WASTELAND_BOSS_N3_130R = Wasteland Battle Music (With Tall Caped Robot)
 
+
+/*XION*/
+-BGM_E04_Xion_K_P1 = Xion Map General Music
+-BGM_E04_XION_K_P2 = Xion Map General Music
+-BGM_E04_XION_K_P3 = Xion Map General Music
+-BGM_E04_XION_K_P5 = Xion Map General Music
+-BGM_E04_XION_P5 = Xion General Music Late Game (?) (Actually I Dont Think This Is Late Game At All)
+-BGM_XION_EVENT_WINTER = Xion Map Seasonal Music
+-BGM_XION_SHOP_KAYA = Xion Kaya Shop Music
+
+/*XION Misc*/
 -BGM_XION_ACTOR_DancingCactus = Xion Cactus Seasonal Music
 -BGM_XION_ACTOR_ENYA_PIANO = Xion Enya General Music (Piano)
 -BGM_XION_ACTOR_ENYA_VOCAL_H = Xion Enya General Music (H Vocals)
@@ -71,19 +181,6 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -BGM_XION_ACTOR_ENYA_TRIO_VOCAL_L = Xion Enya Missions Completed Music (?) (L Vocals)
 -BGM_XION_ACTOR_ENYA_WINTER_INS = Xion Enya Seasonal Music (Piano)
 -BGM_XION_ACTOR_ENYA_WINTER_VOCAL = Xion Enya Seasonal Music (Vocals)
--BGM_E04_Xion_K_P1 = Xion Map General Music
--BGM_E04_XION_K_P2 = Xion Map General Music
--BGM_E04_XION_K_P3 = Xion Map General Music
--BGM_E04_XION_K_P5 = Xion Map General Music
--BGM_E04_XION_P5 = Xion General Music Late Game (?) (Actually I Dont Think This Is Late Game At All)
--BGM_XION_EVENT_WINTER = Xion Map Seasonal Music
--BGM_XION_SHOP_KAYA = Xion Kaya Shop Music
-
--BGM_ME_BOSS_STALKER_PRE_INTRO_170 = Intro Cutscene OST For Stalker Boss Challenge
--BGM_ME_BOSS_STALKER_P1_INTRO_170
--BGM_ME_BOSS_STALKER_P1_LOOP_170
--BGM_ME_BOSS_STALKER_P2_INTRO_170
--BGM_ME_BOSS_STALKER_P2_LOOP_170
 
 /*------------------------------------------CHARACTERS--*/
 /*------------------------------------------CHARACTERS--*/
@@ -405,8 +502,14 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -Drone_date_scan_loop = Drone Scanning Surface With Lasers Loop
 -N_Drone_Scan_FX_Pad = Player Pressed Scan Button (?)
 -N_Drone_Scan_start_Full_2 = Player Pressed Scan Button
+-N_Drone_Scan_start_Full = ???
 -N_Drone_Scan_start = Drone Scan Form Activated
--N_Drone_Scan_Tail = Drone Scan Detect Object
+-N_Drone_Scan_impact = Drone Scan Pulse Sent Out (Drone Body Opens)
+-N_Drone_Scan_FX = Drone Scan Pulse Sent Out (???)
+-N_Drone_Scan_FX_2 = Drone Scan Pulse Sent Out (???)
+-N_Drone_Scan_FX_3 = Drone Scan Pulse Sent Out
+-N_Drone_Scan_Close = Drone Scan Detect Object/Pulse Sent Out (???)
+-N_Drone_Scan_Tail = Drone Scan Detect Object (Repeats)
 -N_Drone_UW_Scan_FX = Player Pressed Scan Button Underwater
 -N_Drone_UW_Scan_start_1 = Player Pressed Scan Button Underwater
 -N_Drone_UW_Scan_Close = (?) (Always Plays Shortly After N_Drone_UW_Scan_FX & N_Drone_UW_Scan_start_1)
@@ -475,9 +578,6 @@ THIS IS A LIST OF IDENTIFIED SOUND FILES AND A BRIEF EXPLANATION ON WHEN THEY AC
 -UI_volumecontroller_5 =  Left/Right UI Slider Navigation
 -UI_whoosh_back = Back Out Of Locked Treasure Chest Keypad Popup
 -UI_Workshop_Open = Enter Upgrade Machine
-
-
-
 
 
 /*--------------------------------------------------BOSS-CODENAME-LIST--*/
